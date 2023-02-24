@@ -165,16 +165,13 @@ main {
 font-size: 25px;
 line-height: 34px;
 color: #3a3434;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 .resume .sub-title{
     font-weight: 600;
 font-size: 20px;
 line-height: 27px;
-
-
-
-
-
 }
 .resume .description{
     font-weight: 400;
@@ -187,3 +184,27 @@ margin-bottom: 10px;
     text-align: center;
     margin-top: 20px;
 }
+/* contract */
+.contract{
+    display: flex;
+    gap: 100px;
+    background: #ebebeefa;
+    padding: 100px 150px;
+    margin-top: 30px;
+}
+.contract .section-title{
+    text-align:left;
+}
+.contract input[type="text"],input[type="email"], textarea{
+    margin-bottom:24px ;
+    border: 0;
+    width:100%;
+    padding:18px 30px;
+}
+input{
+    height: 64px;
+}
+.contract a{
+    text-decoration: none;
+}
+
